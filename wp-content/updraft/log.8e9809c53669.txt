@@ -1,0 +1,41 @@
+0000.013 () Opened log file at time: Sat, 29 Aug 2020 13:33:07 +0000 on http://localhost:8000
+0000.014 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.5 PHP: 7.4.9 (apache2handler, Linux d65500dc901f 4.19.76-linuxkit #1 SMP Tue May 26 11:42:35 UTC 2020 x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache/2.4.38 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 500M (used: 3M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.015 () Free space on disk containing Updraft's temporary directory: 67678.9 MB
+0000.006 () Opened log file at time: Sat, 29 Aug 2020 13:33:08 +0000 on http://localhost:8000
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.5 PHP: 7.4.9 (apache2handler, Linux d65500dc901f 4.19.76-linuxkit #1 SMP Tue May 26 11:42:35 UTC 2020 x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache/2.4.38 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 500M (used: 2.6M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.008 () Free space on disk containing Updraft's temporary directory: 67678.9 MB
+0000.009 () Ensuring WP_Filesystem is setup for a restore
+0000.010 () WP_Filesystem is setup and ready for a restore
+0000.017 () Restore job started. Entities to restore: themes, uploads, others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.035 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.040 () Entity: themes
+0000.040 () restore_backup(backup_file=backup_2020-08-29-0400_Go_Forth_db14dae8defc-themes.zip, type=themes, info=a:2:{s:4:"path";s:31:"/var/www/html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0000.041 () Unpacking backup... (backup_2020-08-29-0400_Go_Forth_db14dae8defc-themes.zip, 11.5 MB)
+0000.047 () Unzipping backup_2020-08-29-0400_Go_Forth_db14dae8defc-themes.zip to /var/www/html/wp-content/upgrade/011f72f0/ using UpdraftPlus_ZipArchive, starting index 0
+0006.603 () Unzip progress: 1002 out of 1779 files (15.4 MB, themes/twentynineteen/print.css)
+0014.350 () Unzip progress: 1779 out of 1779 files (32.7 MB, themes/twentyseventeen/footer.php)
+0014.357 () Moving old data: filesystem method / updraft_dir is potentially possible
+0014.363 () Moving old data: can potentially use wp_filesystem method / -old
+0014.364 () Moving old data out of the way...
+0014.378 () Top-level entities being moved: index.php, twentynineteen, twentyseventeen, twentytwenty
+0014.405 () Moving unpacked backup into place...
+0015.951 () Top-level entities being moved: index.php, lifestyle-magazine, oceanwip, oceanwp, twentynineteen, twentyseventeen, twentytwenty
+0016.013 () Cleaning up rubbish...
+0016.029 () Entity: uploads
+0016.030 () restore_backup(backup_file=backup_2020-08-29-0400_Go_Forth_db14dae8defc-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0016.031 () Unpacking backup... (backup_2020-08-29-0400_Go_Forth_db14dae8defc-uploads.zip, 1.8 MB)
+0016.037 () Unzipping backup_2020-08-29-0400_Go_Forth_db14dae8defc-uploads.zip to /var/www/html/wp-content/upgrade/fd58f86d/ using UpdraftPlus_ZipArchive, starting index 0
+0016.420 () Unzip progress: 28 out of 28 files (1.8 MB, uploads/wp-file-manager-pro/fm_backup/.htaccess)
+0016.429 () Moving old data: filesystem method / updraft_dir is potentially possible
+0016.435 () Moving old data: can potentially use wp_filesystem method / -old
+0016.436 () Moving old data out of the way...
+0016.445 () Moving unpacked backup into place...
+0016.491 () Cleaning up rubbish...
+0016.506 () Entity: others
+0016.507 () restore_backup(backup_file=backup_2020-08-29-0400_Go_Forth_db14dae8defc-others.zip, type=others, info=a:2:{s:4:"path";s:24:"/var/www/html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0016.508 () Unpacking backup... (backup_2020-08-29-0400_Go_Forth_db14dae8defc-others.zip, 0 MB)
+0016.520 () Unzipping backup_2020-08-29-0400_Go_Forth_db14dae8defc-others.zip to /var/www/html/wp-content/upgrade/77147041/ using UpdraftPlus_ZipArchive, starting index 0
+0016.542 () Unzip progress: 1 out of 1 files (28 B, index.php)
+0016.551 () Cleaning up rubbish...
+0016.598 () Restore successful!
+0016.599 () Restore successful

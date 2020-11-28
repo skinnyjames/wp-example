@@ -1,0 +1,24 @@
+0000.017 () Opened log file at time: Sat, 29 Aug 2020 13:29:25 +0000 on http://localhost:8000
+0000.019 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.5 PHP: 7.4.9 (apache2handler, Linux d65500dc901f 4.19.76-linuxkit #1 SMP Tue May 26 11:42:35 UTC 2020 x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache/2.4.38 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 500M (used: 3M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.020 () Free space on disk containing Updraft's temporary directory: 67684.9 MB
+0000.012 () Opened log file at time: Sat, 29 Aug 2020 13:29:25 +0000 on http://localhost:8000
+0000.012 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.5 PHP: 7.4.9 (apache2handler, Linux d65500dc901f 4.19.76-linuxkit #1 SMP Tue May 26 11:42:35 UTC 2020 x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache/2.4.38 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 500M (used: 2.6M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.014 () Free space on disk containing Updraft's temporary directory: 67684.9 MB
+0000.014 () Ensuring WP_Filesystem is setup for a restore
+0000.014 () WP_Filesystem is setup and ready for a restore
+0000.020 () Restore job started. Entities to restore: plugins, themes, uploads, others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.039 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.044 () Entity: plugins
+0000.044 () restore_backup(backup_file=backup_2020-08-29-0400_Go_Forth_db14dae8defc-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.045 () Unpacking backup... (backup_2020-08-29-0400_Go_Forth_db14dae8defc-plugins.zip, 28.8 MB)
+0000.049 () Unzipping backup_2020-08-29-0400_Go_Forth_db14dae8defc-plugins.zip to /var/www/html/wp-content/upgrade/3729858f/ using UpdraftPlus_ZipArchive, starting index 0
+0005.425 () Unzip progress: 1002 out of 6171 files (9.2 MB, plugins/elementor/assets/css/admin-rtl.min.css)
+0014.806 () Unzip progress: 2003 out of 6171 files (26.9 MB, plugins/wp-file-manager/lib/themes/windows - 10/images/16px/duplicate.png)
+0025.260 () Unzip progress: 3004 out of 6171 files (48.4 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/ServerImageScheduleError.php)
+0035.956 () Unzip progress: 4005 out of 6171 files (61.1 MB, plugins/wpide/js/ace-1.2.0/snippets/objectivec.js)
+0054.461 () Error message: Could not copy file.
+0054.462 () Error data (copy_failed_ziparchive): plugins/wpide/ace-0.2.0/README.md
+0054.470 () Restore failed...
+0054.472 () Error message: Could not copy file.
+0054.473 () Error data (copy_failed_ziparchive): plugins/wpide/ace-0.2.0/README.md
+0054.474 () Restore failed
